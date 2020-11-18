@@ -1,13 +1,14 @@
 ﻿using System;
 
-namespace CSharpLearn
+
+namespace LearnClone
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             
+
         }
     }
 }

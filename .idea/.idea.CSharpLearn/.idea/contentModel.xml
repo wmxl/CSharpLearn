@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="AnythingTest" t="IncludeRecursive">
+        <e p="AnythingTest.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AnythingTest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="CSharpLearn" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="CSharpLearn.csproj" t="IncludeRecursive" />
+        <e p="LearnString.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -12,9 +25,188 @@
             </e>
           </e>
         </e>
-        <e p="Program.cs" t="Include" />
       </e>
       <e p="CSharpLearn.sln" t="IncludeFlat" />
+      <e p="LearnArray" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnArray.cs" t="Include" />
+        <e p="LearnArray.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnArray.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="LearnCasting" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnCasting.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnCasting.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnClone" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnClone.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnClone.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnDelegate" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnDelegate.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnDelegate.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnDelegate2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnDelegate2.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnDelegate2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnDelegate3" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnDelegate3.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnDelegate3.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnEnum" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnEnum.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnEnum.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnEnumerationRealted" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnEnumerationRealted.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnEnumerationRealted.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnGuid" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnGuid.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnGuid.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnNullable" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnNullable.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnNullable.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnOperation" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnOperation.csproj" t="IncludeRecursive" />
+        <e p="LearnTypeof.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnOperation.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="LearnPassbyRef" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnPassbyRef.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnPassbyRef.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnShallowCopyAndDeepCopy" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnShallowCopyAndDeepCopy.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnShallowCopyAndDeepCopy.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnUsing" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnUsing.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnUsing.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="LearnYield" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LearnYield.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LearnYield.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
