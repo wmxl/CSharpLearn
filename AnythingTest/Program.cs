@@ -1,36 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using Microsoft.VisualBasic.CompilerServices;
 
 namespace AnythingTest
 {
+    
     class Program
     {
+        public static Func<int, bool> IsProcessedInBill()
+        {
+            return billingInfo => billingInfo > 0;
+        }
+        public static Expression<Func<int, bool>> IsProcessedInBill1()
+        {
+            return billingInfo => billingInfo > 0;
+        }
+
         static void Main(string[] args)
         {
-            var functionList = new List<Func<int>>();
+            Func<int,bool> func1 = Program.IsProcessedInBill();
+            Console.WriteLine(func1(-1));
+            Console.WriteLine(func1(1));
 
-            int num;
-            for (int i = 0; i < 3; ++i)
-            {
-                num = i;
-                functionList.Add(() => num);
-                Console.WriteLine(functionList[i]());
-            }
-            for (int i = 0; i < 3; ++i)
-            {
-                Console.WriteLine(functionList[i]());
-            }
-
-            Console.WriteLine("-------");
-
-            int sum = 0;
-            foreach (Func<int> func in functionList)
-            {
-                Console.WriteLine(func());
-                sum += func();
-            }
-            Console.WriteLine("sum:" + sum);
+            var e = Program.IsProcessedInBill1();
+            Console.WriteLine("e.Name: "+ e.Name);
+            Console.WriteLine("Body:" + e.Body);
+            Console.WriteLine("Parameters: "+ e.Parameters);
+            Console.WriteLine("Type: "+ e.Type);
+            Console.WriteLine("e.Compile():"+ e.Compile());
         }
     }
 }
