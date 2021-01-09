@@ -19,6 +19,13 @@
     <projectFile>LearnYield/LearnYield.csproj</projectFile>
     <projectFile>LearnCasting/LearnCasting.csproj</projectFile>
     <projectFile>LearnGuid/LearnGuid.csproj</projectFile>
+    <projectFile>asdffsdfsdf/asdffsdfsdf.csproj</projectFile>
+    <projectFile>LearnDynamic/LearnDynamic.csproj</projectFile>
+    <projectFile>LearnExtensionMethod/LearnExtensionMethod.csproj</projectFile>
+    <projectFile>Sonar-report/Sonar-report.vbproj</projectFile>
+    <projectFile>Sona-repport/Sona-repport.csproj</projectFile>
+    <projectFile>LearnDebug/LearnDebug.csproj</projectFile>
+    <projectFile>TypeCheckingSummary/TypeCheckingSummary.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand />
@@ -26,13 +33,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5690793e-c4d3-4216-880f-b7f5200ba8ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSharpLearn/LearnString.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/LearnStringAndStringBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnArray/LearnArray.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnDynamic/LearnDynamic.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnDynamic/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnSelectMany/LearnSelectMany.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpLearn/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpLearn/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpLearn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpLearn.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpLearn.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpLearn/Program.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +49,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ConsoleApp1/LearnStringAndStringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/654AC2D5-AEE9-4BB7-9DE1-E6F0533F5376/19/b22a3d3b/Environment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LearnSelectMany/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LearnArray/LearnArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8989BB2D-5B02-4E29-BCC7-E57F340E94E8/4/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F1DE3EF6-EE6A-41A4-A5DE-303C8CB1A7F5/3f/f042af2b/TextWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F1DE3EF6-EE6A-41A4-A5DE-303C8CB1A7F5/4d/19cf5c24/MemberInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sonar-report/Program.vb" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F1DE3EF6-EE6A-41A4-A5DE-303C8CB1A7F5/bc/08b9eb80/LazyInitializer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,11 +83,19 @@
         <option value="$PROJECT_DIR$/LearnDelegate/Program.cs" />
         <option value="$PROJECT_DIR$/LearnDelegate2/Program.cs" />
         <option value="$PROJECT_DIR$/LearnShallowCopyAndDeepCopy/Program.cs" />
-        <option value="$PROJECT_DIR$/AnythingTest/Program.cs" />
         <option value="$PROJECT_DIR$/LearnEnumerationRealted/Program.cs" />
         <option value="$PROJECT_DIR$/LearnYield/Program.cs" />
         <option value="$PROJECT_DIR$/LearnCasting/Program.cs" />
         <option value="$PROJECT_DIR$/LearnGuid/Program.cs" />
+        <option value="$PROJECT_DIR$/AnythingTest/Program.cs" />
+        <option value="$PROJECT_DIR$/asdffsdfsdf/Program.cs" />
+        <option value="$PROJECT_DIR$/LearnSelectManys/Program.cs" />
+        <option value="$PROJECT_DIR$/LearnDynamic/Program.cs" />
+        <option value="$PROJECT_DIR$/LearnExtensionMethod/Program.cs" />
+        <option value="$PROJECT_DIR$/Sona-repport/Program.cs" />
+        <option value="$PROJECT_DIR$/LearnDebug/Program.cs" />
+        <option value="$PROJECT_DIR$/TypeCheckingSummary/Program.cs" />
+        <option value="$PROJECT_DIR$/LearnSelectMany/Program.cs" />
       </list>
     </option>
   </component>
@@ -88,6 +106,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.43891734" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29992685" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -99,9 +118,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Inspections-ASP.NET" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.LearnGuid">
+  <component name="RunManager" selected=".NET Project.asdffsdfsdf">
     <configuration name="AnythingTest" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -228,6 +249,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LearnDebug" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LearnDebug/LearnDebug.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LearnDelegate" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -282,6 +321,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LearnDynamic" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LearnDynamic/LearnDynamic.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LearnEnum" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -309,6 +366,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/LearnEnumerationRealted/LearnEnumerationRealted.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LearnExtensionMethod" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LearnExtensionMethod/LearnExtensionMethod.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -390,6 +465,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LearnSelectManys" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LearnSelectMany/LearnSelectMany.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LearnShallowCopyAndDeepCopy" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -444,8 +537,81 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Sona-repport" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Sona-repport/Sona-repport.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Sonar-report" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Sonar-report/Sonar-report.vbproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="TypeCheckingSummary" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TypeCheckingSummary/TypeCheckingSummary.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="asdffsdfsdf" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LearnSelectMany/LearnSelectMany.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.LearnSelectManys" />
         <item itemvalue=".NET Project.LearnArray" />
       </list>
     </recent_temporary>
@@ -474,6 +640,14 @@
       <workItem from="1605686809003" duration="104000" />
       <workItem from="1605686927228" duration="55000" />
       <workItem from="1605687734709" duration="4000" />
+      <workItem from="1605783670063" duration="2789000" />
+      <workItem from="1605869027065" duration="672000" />
+      <workItem from="1605933458579" duration="512000" />
+      <workItem from="1605946292420" duration="1944000" />
+      <workItem from="1606876655092" duration="2385000" />
+      <workItem from="1607583443842" duration="920000" />
+      <workItem from="1609603321954" duration="1229000" />
+      <workItem from="1610162495860" duration="6489000" />
     </task>
     <servers />
   </component>
@@ -502,149 +676,256 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="171" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1602750498427" />
-    <state width="1495" height="313" key="GridCell.Tab.0.bottom" timestamp="1604314702062">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1610179653541">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.0.1440.870/-3840.0.1920.1170@0.0.1440.870" timestamp="1605950390232" />
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-300.1920.1200@0.0.1440.900" timestamp="1603768270004" />
     <state width="1878" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-819.1920.1200@1440.-819.1920.1200" timestamp="1602845949240" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603874517498" />
+    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1610179653541" />
     <state width="1878" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1602842454032" />
+    <state width="2517" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1610172870525" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1602771677193" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-300.1920.1200@0.23.1440.877" timestamp="1603768523270" />
     <state width="1495" height="313" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604314702062" />
     <state width="1495" height="313" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628479" />
-    <state width="1495" height="313" key="GridCell.Tab.0.center" timestamp="1604314702061">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1610179653526">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.0.1440.870/-3840.0.1920.1170@0.0.1440.870" timestamp="1605950390232" />
+    <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.0.1440.900/1440.-300.1920.1200@0.0.1440.900" timestamp="1603768270003" />
     <state width="1878" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.-819.1920.1200@1440.-819.1920.1200" timestamp="1602845949238" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603874517497" />
+    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1610179653526" />
     <state width="1878" height="245" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1602842454030" />
+    <state width="2517" height="293" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1610172870525" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1602771677192" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877/1440.-300.1920.1200@0.23.1440.877" timestamp="1603768523268" />
     <state width="1495" height="313" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604314702061" />
     <state width="1495" height="313" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628478" />
-    <state width="1495" height="313" key="GridCell.Tab.0.left" timestamp="1604314702060">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1610179653526">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.0.1440.870/-3840.0.1920.1170@0.0.1440.870" timestamp="1605950390232" />
+    <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.0.1440.900/1440.-300.1920.1200@0.0.1440.900" timestamp="1603768270002" />
     <state width="1878" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.-819.1920.1200@1440.-819.1920.1200" timestamp="1602845949237" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603874517496" />
+    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1610179653510" />
     <state width="1878" height="245" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1602842454029" />
+    <state width="2517" height="293" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1610172870525" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1602771677192" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877/1440.-300.1920.1200@0.23.1440.877" timestamp="1603768523267" />
     <state width="1495" height="313" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604314702060" />
     <state width="1495" height="313" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628477" />
-    <state width="1495" height="313" key="GridCell.Tab.0.right" timestamp="1604314702061">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1610179653526">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.0.1440.870/-3840.0.1920.1170@0.0.1440.870" timestamp="1605950390232" />
+    <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.0.1440.900/1440.-300.1920.1200@0.0.1440.900" timestamp="1603768270003" />
     <state width="1878" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.-819.1920.1200@1440.-819.1920.1200" timestamp="1602845949239" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603874517497" />
+    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1610179653526" />
     <state width="1878" height="245" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1602842454031" />
+    <state width="2517" height="293" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1610172870525" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1602771677193" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877/1440.-300.1920.1200@0.23.1440.877" timestamp="1603768523269" />
     <state width="1495" height="313" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604314702061" />
     <state width="1495" height="313" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628478" />
-    <state width="1495" height="313" key="GridCell.Tab.1.bottom" timestamp="1604314702063">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.1.bottom" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.bottom/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604314702063" />
     <state width="1495" height="313" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628481" />
-    <state width="1495" height="313" key="GridCell.Tab.1.center" timestamp="1604314702062">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.1.center" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.center/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1604314702062" />
     <state width="1495" height="313" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628480" />
-    <state width="1495" height="313" key="GridCell.Tab.1.left" timestamp="1604314702062">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.1.left" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.left/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1604314702062" />
     <state width="1495" height="313" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628479" />
-    <state width="1495" height="313" key="GridCell.Tab.1.right" timestamp="1604314702062">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.1.right" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.right/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1604314702062" />
     <state width="1495" height="313" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628481" />
-    <state width="1495" height="313" key="GridCell.Tab.2.bottom" timestamp="1604314702063">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.2.bottom" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.2.bottom/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604314702063" />
     <state width="1495" height="313" key="GridCell.Tab.2.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628483" />
-    <state width="1495" height="313" key="GridCell.Tab.2.center" timestamp="1604314702063">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.2.center" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.2.center/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1604314702063" />
     <state width="1495" height="313" key="GridCell.Tab.2.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628483" />
-    <state width="1495" height="313" key="GridCell.Tab.2.left" timestamp="1604314702063">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.2.left" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.2.left/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1604314702063" />
     <state width="1495" height="313" key="GridCell.Tab.2.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628482" />
-    <state width="1495" height="313" key="GridCell.Tab.2.right" timestamp="1604314702063">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.2.right" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.2.right/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1604314702063" />
     <state width="1495" height="313" key="GridCell.Tab.2.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628483" />
-    <state width="1495" height="313" key="GridCell.Tab.3.bottom" timestamp="1604314702064">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.3.bottom" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.3.bottom/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.3.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604314702064" />
     <state width="1495" height="313" key="GridCell.Tab.3.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628486" />
-    <state width="1495" height="313" key="GridCell.Tab.3.center" timestamp="1604314702064">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.3.center" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.3.center/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.3.center/0.23.1440.877@0.23.1440.877" timestamp="1604314702064" />
     <state width="1495" height="313" key="GridCell.Tab.3.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628484" />
-    <state width="1495" height="313" key="GridCell.Tab.3.left" timestamp="1604314702064">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.3.left" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.3.left/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.3.left/0.23.1440.877@0.23.1440.877" timestamp="1604314702064" />
     <state width="1495" height="313" key="GridCell.Tab.3.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628484" />
-    <state width="1495" height="313" key="GridCell.Tab.3.right" timestamp="1604314702064">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.3.right" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.3.right/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.3.right/0.23.1440.877@0.23.1440.877" timestamp="1604314702064" />
     <state width="1495" height="313" key="GridCell.Tab.3.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628485" />
-    <state width="1495" height="313" key="GridCell.Tab.4.bottom" timestamp="1604314702066">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.4.bottom" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.4.bottom/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.4.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604314702066" />
     <state width="1495" height="313" key="GridCell.Tab.4.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628488" />
-    <state width="1495" height="313" key="GridCell.Tab.4.center" timestamp="1604314702065">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.4.center" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.4.center/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.4.center/0.23.1440.877@0.23.1440.877" timestamp="1604314702065" />
     <state width="1495" height="313" key="GridCell.Tab.4.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628487" />
-    <state width="1495" height="313" key="GridCell.Tab.4.left" timestamp="1604314702064">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.4.left" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.4.left/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.4.left/0.23.1440.877@0.23.1440.877" timestamp="1604314702064" />
     <state width="1495" height="313" key="GridCell.Tab.4.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628486" />
-    <state width="1495" height="313" key="GridCell.Tab.4.right" timestamp="1604314702065">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="318" key="GridCell.Tab.4.right" timestamp="1609604560349">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state width="1398" height="318" key="GridCell.Tab.4.right/0.0.1440.870@0.0.1440.870" timestamp="1609604560349" />
     <state width="1495" height="313" key="GridCell.Tab.4.right/0.23.1440.877@0.23.1440.877" timestamp="1604314702065" />
     <state width="1495" height="313" key="GridCell.Tab.4.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604289628487" />
-    <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size" timestamp="1604281343040">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="569" y="199" key="Rider.ProjectTemplateDialog.Size" timestamp="1610162541064">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
+    <state x="320" y="165" key="Rider.ProjectTemplateDialog.Size/0.0.1440.870/-3840.0.1920.1170@0.0.1440.870" timestamp="1605933623059" />
+    <state x="320" y="165" key="Rider.ProjectTemplateDialog.Size/0.0.1440.870@0.0.1440.870" timestamp="1609604106902" />
     <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size/0.0.1440.900/1440.-300.1920.1200@0.0.1440.900" timestamp="1603767916037" />
     <state x="1867" y="-567" key="Rider.ProjectTemplateDialog.Size/0.0.1440.900/1440.-819.1920.1200@1440.-819.1920.1200" timestamp="1602829413272" />
     <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size/0.0.1440.900@0.0.1440.900" timestamp="1603706258198" />
+    <state x="569" y="199" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1050@0.0.2560.1050" timestamp="1610162541064" />
     <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size/0.23.1440.877@0.23.1440.877" timestamp="1604281343040" />
-    <state x="494" y="131" key="RiderGenerateDialog" timestamp="1603706033049">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="494" y="127" key="RiderGenerateDialog" timestamp="1605694547460">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state x="494" y="127" key="RiderGenerateDialog/0.0.1440.870@0.0.1440.870" timestamp="1605694547460" />
     <state x="494" y="131" key="RiderGenerateDialog/0.0.1440.900@0.0.1440.900" timestamp="1603706033049" />
-    <state x="388" y="82" width="663" height="735" key="find.popup" timestamp="1602758212710">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="239" y="59" key="SettingsEditor" timestamp="1605947581608">
+      <screen x="0" y="0" width="1440" height="870" />
     </state>
+    <state x="239" y="59" key="SettingsEditor/0.0.1440.870/-3840.0.1920.1170@0.0.1440.870" timestamp="1605947581608" />
+    <state x="239" y="59" key="SettingsEditor/0.0.1440.870@0.0.1440.870" timestamp="1605695712340" />
+    <state x="93" y="93" width="1253" height="683" key="VCS.FileHistoryDialog" timestamp="1605694859408">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="93" y="93" width="1253" height="683" key="VCS.FileHistoryDialog/0.0.1440.870@0.0.1440.870" timestamp="1605694859408" />
+    <state x="444" y="91" width="806" height="837" key="find.popup" timestamp="1607584871641">
+      <screen x="0" y="0" width="1646" height="999" />
+    </state>
+    <state x="388" y="79" width="705" height="711" key="find.popup/0.0.1440.870@0.0.1440.870" timestamp="1605838950592" />
     <state x="388" y="82" width="663" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1602758212710" />
-    <state x="1951" y="-560" width="896" height="904" key="search.everywhere.popup" timestamp="1602839269730">
-      <screen x="1440" y="-819" width="1920" height="1200" />
+    <state x="444" y="91" width="806" height="837" key="find.popup/0.0.1646.999@0.0.1646.999" timestamp="1607584871641" />
+    <state x="390" y="481" width="769" height="754" key="search.everywhere.popup" timestamp="1607584884700">
+      <screen x="0" y="0" width="1646" height="999" />
     </state>
+    <state x="341" y="419" width="672" height="656" key="search.everywhere.popup/0.0.1440.870/-3840.0.1920.1170@0.0.1440.870" timestamp="1605947574248" />
     <state x="1951" y="-560" width="896" height="904" key="search.everywhere.popup/0.0.1440.900/1440.-819.1920.1200@1440.-819.1920.1200" timestamp="1602839269730" />
     <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1602758245769" />
+    <state x="390" y="481" width="769" height="754" key="search.everywhere.popup/0.0.1646.999@0.0.1646.999" timestamp="1607584884700" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LearnDebug/Program.cs</url>
+          <line>28</line>
+          <properties documentPath="C:\wmxl\CSharpLearn-1\LearnDebug\Program.cs" initialLine="27">
+            <startOffsets>
+              <option value="602" />
+            </startOffsets>
+            <endOffsets>
+              <option value="636" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LearnDebug/Program.cs</url>
+          <line>30</line>
+          <properties documentPath="C:\wmxl\CSharpLearn-1\LearnDebug\Program.cs" initialLine="30">
+            <startOffsets>
+              <option value="697" />
+            </startOffsets>
+            <endOffsets>
+              <option value="732" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LearnDebug/Program.cs</url>
+          <line>34</line>
+          <properties documentPath="C:\wmxl\CSharpLearn-1\LearnDebug\Program.cs" initialLine="34">
+            <startOffsets>
+              <option value="796" />
+            </startOffsets>
+            <endOffsets>
+              <option value="808" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LearnDebug/Program.cs</url>
+          <line>32</line>
+          <properties documentPath="C:\wmxl\CSharpLearn-1\LearnDebug\Program.cs" initialLine="32">
+            <startOffsets>
+              <option value="758" />
+            </startOffsets>
+            <endOffsets>
+              <option value="770" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
